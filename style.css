@@ -1,3 +1,51 @@
 body {
-    margin: 0;
+  min-height: 100vh;
+  margin: 20px;
+  border: 5px solid lime;
+  background-color: rgba(236, 229, 160, 0.658);
+}
+header {
+  border: 5px solid red;
+   margin: 10px 200px;
+}
+.nav{
+  text-align: center;
+  padding: 20px;
+}
+.nav-link {
+  padding: 15px 15px;
+  line-height: 5px;
+}
+main {
+  border: 5px solid blue;
+  margin: 10px 200px;
+}
+section {
+  text-align: center;
+}
+article{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+.contact-list{
+text-align: left;
+}
+.info{
+  text-align:justify;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+footer {
+  border: 5px solid violet;
+  margin: 10px 200px;
+  text-align: center;
+}
+footer > a {
+  margin-left: 30%;
   }
